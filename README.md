@@ -27,3 +27,4 @@ self.k = 4  # The number of frames between each frame seen by the agent (action 
 self.u = 4  # THe number of frames seen by the agent before a gradient descent update is performed
 self.m = 4  # The number of frames to include in a single state
 self.c = 10000  # The number of actions selected before updating the target network
+
