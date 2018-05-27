@@ -59,6 +59,8 @@ class QNetwork(object):
         if (self.bTrain):
             self.q_graph.SaveGraphAndVariables()
             self.q_graph_targets = QTargetGraph(self.im_width, self.im_height, self.m, self.num_actions, self.directory)
+        else:
+            self.q_graph.LoadGraphAndVariables()
 
         return
 
@@ -253,17 +255,5 @@ class QNetwork(object):
     def GradientDescentStep(self):
 
         self.q_graph.GradientDescentStep(self.minibatch.prev_phis, self.minibatch.actions, self.targets)
-
-        return
-
-    def SaveGraphAndVariables(self):
-
-        self.q_graph.SaveGraphAndVariables()
-
-        return
-
-    def LoadGraphAndVariables(self):
-
-        self.q_graph.LoadGraphAndVariables()
 
         return
