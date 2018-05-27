@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c32678c-4c0e-49b3-91c2-e959a50116b2" name="Default" comment="" />
+    <list default="true" id="7c32678c-4c0e-49b3-91c2-e959a50116b2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QNetwork.py" afterPath="$PROJECT_DIR$/QNetwork.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file leaf-file-name="QNetwork.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="245">
+              <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -78,8 +80,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/QGraph.py" />
-        <option value="$PROJECT_DIR$/QNetwork.py" />
         <option value="$PROJECT_DIR$/Memory.py" />
+        <option value="$PROJECT_DIR$/QNetwork.py" />
       </list>
     </option>
   </component>
@@ -225,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="245">
+          <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

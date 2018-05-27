@@ -77,7 +77,7 @@ class QNetwork(object):
 
             self.Test(pxarray=pxarray, bTrial_over=bTrial_over)
 
-        return
+        return self.action
 
     def Train(self, pxarray, bTrial_over, reward):
 
